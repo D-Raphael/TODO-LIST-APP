@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TO-DO - New List</title>
+    <!--css-->
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+           <h1>My New TO-DO List</h1> 
+           <div class="container">
+           <div class="links">
+               <img class="profile-img" src="../assets/images/avatar.png" alt="Profile Picture"><br><br>
+               <a href="profile.html">Profile</a><br><br>
+               <a href="newList.html">Create New List</a><br><br>
+               <a href="my-lists.html">TO-DO Lists</a><br><br>
+           </div> 
+           <div class="main-view">
+               <form name="newList" action="my-lists.html">
+                   List Name:<br>
+                   <input type="text" name="list-name" placeholder="Enter New List Name" reqiured><br><br>
+                   Description:(Optional)<br>
+                   <input type="text" name="list-decription" placeholder="List Description"><br><br>
+                   List Expiry Date:(Optional)<br>
+                   <input type="date" name="list-expiry"><br><br>
+                   <input type="submit" name="create-list" value="Create List" class="login-btn"><br><br>
+               </form>
+            </div>
+        </div>
+    </body>
+</html>

@@ -107,6 +107,10 @@ form input[type="text"]{
     font-size: 25px;
     border-radius:10px;
 }
+form input[type="date"]{
+    font-size: 25px;
+    border-radius:10px;
+}
 form input[type="password"]{
     font-size: 25px;
     border-radius:10px;
