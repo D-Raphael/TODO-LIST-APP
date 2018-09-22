@@ -66,6 +66,22 @@ p{
     font-size:20px;
     font-family: 'Courier New', Courier, monospace;
 }
+.done-chk{
+    float:right;
+    height:35px;
+    width: 35px;
+    border-radius:10px;
+    font-size:20px;
+}
+.cancel-btn{
+    height:40px;
+    width: 50px;
+    border-radius:10px;
+    background-color: red;
+    font-weight: bold;
+    font-size:20px;
+    font-family: 'Courier New', Courier, monospace;
+}
 .signup-btn{
     height:40px;
     width: 120px;
@@ -116,10 +132,13 @@ form input[type="password"]{
     border-radius:10px;
 }
 form input[type="submit"]{
-    width: 300px;
+    width: 150px;
 }
 form{
     font-size: 25px;
+}
+table{
+    font-size:20px;
 }
 .container{
     display: flex;
