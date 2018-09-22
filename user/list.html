@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TO-DO - New List</title>
+    <!--css-->
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+           <h1>My TO-DO List</h1> 
+           <div class="container">
+           <div class="links">
+               <img class="profile-img" src="../assets/images/avatar.png" alt="Profile Picture"><br><br>
+               <a href="login.html">Logout</a><br><br>
+               <a href="profile.html">Profile</a><br><br>
+               <a href="newList.html">Create New List</a><br><br>
+               <a href="my-lists.html">TO-DO Lists</a><br><br>
+           </div> 
+           <div class="main-view">
+               <p><b>--SHOPPING--</b></p>
+               <fieldset style="border-radius:10px; ">
+               <form name="new-item" action="#">
+                   New Item: &nbsp;
+                   <input type="text" name="item-name" placeholder="Add new item to list" reqiured>
+                   &nbsp;
+                   <input type="submit" name="create-item" value="Add Item" class="login-btn">
+               </form>
+               </fieldset>
+               <fieldset>
+                   <p>Description: This is a TO-DO List for shopping groceries.<br><br>
+                   Date due: 16-Sept-18</p> 
+                   <hr>
+                   <table width="99%">
+                       <tr><th>ITEMS</th><th>Actions</th></tr>
+                       <tr>
+                           <td>
+                                <ul><li>White Bread</li></ul>
+                           </td>
+                           <td>
+                               <!--table to hold the actions-for white bread-->
+                               <table align="center">
+                                    <tr>
+                                        <td>
+                                            <form name="done" action = "#">
+                                                <input type="checkbox" name="mark-as-done" value="Done" class="done-chk">
+                                            </form>
+                                        </td>
+                                        <td>
+                                            <form name="remove" action = "#">
+                                                <input type="submit" name="remove-item" value="Remove" class="cancel-btn">
+                                            </form>
+                                        </td>
+                                    </tr>
+                            </table><!--end of table for actions-->
+                            </td></tr>
+                        <tr>
+                            <td>
+                             <ul><li>Chia Seeds</li></ul>
+                            </td>
+                            <td>
+
+                                <!--table to hold the actions-for chia seeds-->
+                                <table align="center">
+                                    <tr>
+                                        <td>
+                                            <form name="done" action = "#">
+                                                <input type="checkbox" name="mark-as-done" value="Done" class="done-chk">
+                                            </form>
+                                        </td>
+                                        <td>
+                                            <form name="remove" action = "#">
+                                                <input type="submit" name="remove-item" value="Remove" class="cancel-btn">
+                                            </form>
+                                        </td>
+                                    </tr>
+                            </table><!--end of table for actions-->
+                                
+                            </td></tr>
+                    </table>
+               </fieldset>
+            </div>
+        </div>
+    </body>
+</html>
